@@ -3,13 +3,13 @@ Braintree for Laravel 5
 
 ### Installation
 
-In your Laravel project's composer.json file, add `oureastudios/laravel5-braintree` as a dependency in the require object:
+In your Laravel project's composer.json file, add `n00b-Runner/braintree_laravel` as a dependency in the require object:
 
 ```js
-"oureastudios/laravel5-braintree": "dev-master"
+"n00b-Runner/braintree_laravel": "dev-master"
 ```
     
-You do *not* need to add any other dependencies, as `oureastudios/laravel5-braintree` loads in the other dependencies automatically.
+You do *not* need to add any other dependencies, as `n00b-Runner/braintree_laravel` loads in the other dependencies automatically.
 
 Finally, do a `composer update`.
 
@@ -21,7 +21,7 @@ Once installed, add the ServiceProvider to your provider array within `config/ap
 	/*
 	 * Braintree Service Provider
 	 */
-    'Oureastudios\Laravel\BraintreeServiceProvider',
+    'n00b-Runner\Laravel\BraintreeServiceProvider',
 ]
 ```
 
@@ -33,7 +33,7 @@ To publish a the package configuration file, run:
 php artisan vendor:publish
 ```
 
-Then open `config/oureastudios.braintree.php` to setup your environment and keys:
+Then open `config/n00b-Runner.braintree.php` to setup your environment and keys:
 
 ### Usage
 
@@ -69,5 +69,7 @@ Below is an example.
 ~~~
 
 ### Credits
+
+Thanks to the [oureastudios/laravel5-braintree](https://github.com/oureastudios/laravel5-braintree) package. I used it as a base and converted it into Laravel 5 for Braintree 3.35.0.
 
 Thanks to the [bradleyboy/laravel-braintree](https://github.com/bradleyboy/laravel-braintree) package. I used it as a base and converted it into Laravel 5.

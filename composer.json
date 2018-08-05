@@ -1,10 +1,14 @@
 {
-    "name": "oureastudios/laravel5-braintree",
-    "description": "Braintree Service Provider for Laravel 5",
+    "name": "n00b-Runner/braintree_laravel",
+    "description": "Braintree Service Provider for Laravel 5 and Braintree 3.35.0",
     "keywords": ["braintree","braintree laravel 5"],
-    "homepage": "https://github.com/oureastudios/laravel-braintree",
+    "homepage": "https://github.com/n00b-Runner/braintree_laravel",
     "license": "MIT",
     "authors": [
+        {
+            "name": "n00b-Runner",
+            "role": "Developer"
+        },
         {
             "name": "Tameem Safi",
             "email": "tameemsafi@live.co.uk",
@@ -27,7 +31,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Oureastudios\\Laravel": "src/"
+            "n00b-Runner\\Laravel": "src/"
         }
     },
     "minimum-stability": "dev"
