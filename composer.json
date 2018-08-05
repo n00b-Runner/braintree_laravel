@@ -1,12 +1,12 @@
 {
-    "name": "n00b-Runner/braintree_laravel",
+    "name": "n00b-runner/braintree_laravel",
     "description": "Braintree Service Provider for Laravel 5 and Braintree 3.35.0",
     "keywords": ["braintree","braintree laravel 5"],
-    "homepage": "https://github.com/n00b-Runner/braintree_laravel",
+    "homepage": "https://github.com/n00b-runner/braintree_laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": "n00b-Runner",
+            "name": "n00b-runner",
             "role": "Developer"
         },
         {
@@ -31,7 +31,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "n00b-Runner\\Laravel": "src/"
+            "n00b-runner\\Laravel": "src/"
         }
     },
     "minimum-stability": "dev"
