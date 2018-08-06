@@ -21,7 +21,7 @@ Once installed, add the ServiceProvider to your provider array within `config/ap
 	/*
 	 * Braintree Service Provider
 	 */
-    'n00b-runner\Laravel\BraintreeServiceProvider',
+    'oureastudios\Laravel\BraintreeServiceProvider',
 ]
 ```
 
@@ -33,7 +33,7 @@ To publish a the package configuration file, run:
 php artisan vendor:publish
 ```
 
-Then open `config/n00b-runner.braintree.php` to setup your environment and keys:
+Then open `config/oureastudios.braintree.php` to setup your environment and keys:
 
 ### Usage
 
