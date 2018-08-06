@@ -1,4 +1,4 @@
-<?php namespace Oureastudios\Laravel;
+<?php namespace Noobrunner\Laravel;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -25,26 +25,26 @@ class BraintreeServiceProvider extends ServiceProvider {
 	{
 		
 		$this->publishes([
-		    __DIR__.'/../../config/braintree.php' => config_path('oureastudios.braintree.php'),
+		    __DIR__.'/../../config/braintree.php' => config_path('noobrunner.braintree.php'),
 		]);
 
 		Braintree_Configuration::environment(
-			$this->app['config']->get('oureastudios.braintree.environment')
+			$this->app['config']->get('noobrunner.braintree.environment')
 		);
 		
 		Braintree_Configuration::merchantId(
-			$this->app['config']->get('oureastudios.braintree.merchantId')
+			$this->app['config']->get('noobrunner.braintree.merchantId')
 		);
 
 		Braintree_Configuration::publicKey(
-			$this->app['config']->get('oureastudios.braintree.publicKey')
+			$this->app['config']->get('noobrunner.braintree.publicKey')
 		);
 
 		Braintree_Configuration::privateKey(
-			$this->app['config']->get('oureastudios.braintree.privateKey')
+			$this->app['config']->get('noobrunner.braintree.privateKey')
 		);
 
-		$encryptionKey = $this->app['config']->get('oureastudios.braintree.clientSideEncryptionKey');
+		$encryptionKey = $this->app['config']->get('noobrunner.braintree.clientSideEncryptionKey');
 
 		Blade::extend(function($view, $compiler) use($encryptionKey)
         {

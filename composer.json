@@ -27,7 +27,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Oureastudios\\Laravel": "src/"
+            "Noobrunner\\Laravel": "src/"
         }
     },
     "minimum-stability": "dev"
