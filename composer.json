@@ -1,5 +1,5 @@
 {
-    "name": "n00b-runner/braintree_laravel",
+    "name": "n00b-Runner/braintree_laravel",
     "description": "Braintree Service Provider for Laravel 5 and Braintree >= 3.35.0",
     "keywords": ["braintree","braintree laravel 5"],
     "homepage": "https://github.com/n00b-Runner/braintree_laravel",
