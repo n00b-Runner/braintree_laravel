@@ -3,13 +3,13 @@ Braintree for Laravel 5
 
 ### Installation
 
-In your Laravel project's composer.json file, add `n00b-Runner/braintree_laravel` as a dependency in the require object:
+In your Laravel project's composer.json file, add `n00b-runner/braintree_laravel` as a dependency in the require object:
 
 ```js
-"n00b-Runner/braintree_laravel": "dev-master"
+"n00b-runner/braintree_laravel": "dev-master"
 ```
     
-You do *not* need to add any other dependencies, as `n00b-Runner/braintree_laravel` loads in the other dependencies automatically.
+You do *not* need to add any other dependencies, as `n00b-runner/braintree_laravel` loads in the other dependencies automatically.
 
 Finally, do a `composer update`.
 
