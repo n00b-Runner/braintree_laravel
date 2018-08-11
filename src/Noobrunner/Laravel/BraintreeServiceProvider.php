@@ -54,13 +54,15 @@ class BraintreeServiceProvider extends ServiceProvider {
 			return preg_replace($matcher, $encryptionKey, $view);
         });
 
-        Blade::extend(function($view, $compiler)
-        {
+        // removed as was sending a request to braintree every time loaded a page instead generate token within controller
 
-        	$matcher = "/(?<!\w)(\s*)@braintreeClientToken/";
+   //      Blade::extend(function($view, $compiler)
+   //      {
 
-			return preg_replace($matcher, Braintree_ClientToken::generate(), $view);
-        });
+   //      	$matcher = "/(?<!\w)(\s*)@braintreeClientToken/";
+
+			// return preg_replace($matcher, Braintree_ClientToken::generate(), $view);
+   //      });
 	}
 
 	/**
